@@ -1,0 +1,487 @@
+.resume{
+    background-color: rgb(22, 1, 61) ;
+    width: 100%;
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+
+.resume_topic{
+    /* background-color: brown; */
+    width: 100%;
+    text-align: center;
+}
+.my_journey{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.resume{
+    color: blueviolet;
+    font-size: 55px !important;
+}
+
+.two_section{
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    padding: 2% 0 2% 0;
+}
+.resume_navbar{
+    background-color:blueviolet;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0 auto;
+}
+
+.resume_button1,
+.resume_button2,
+.resume_button3,
+.resume_button4{
+    text-align: left;
+    width: 80%;
+    border: none;
+    background-color:blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.9s;
+    margin-top: 2%;
+    transition: background-color 0.9s;
+    padding: 3%;
+    border-radius: 5px;
+}
+.resume_button1.active,
+.resume_button2.active,
+.resume_button3.active,
+.resume_button4.active {
+    background-color: white; 
+    color: blueviolet;
+}
+.resume_button1:hover,
+.resume_button2:hover,
+.resume_button3:hover,
+.resume_button4:hover{
+background-color: white;
+color: blueviolet;
+}
+
+
+.resume_button1{
+    margin-left:5% ;
+}
+.resume_button2{
+    margin-left:5% ;
+}
+.resume_button3{
+    margin-left:5% ;
+}
+.resume_button4{
+    margin-left:5% ;
+}
+
+
+ .contain_section{
+    /* background-color: chocolate; */
+    width: 73%;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+    
+ }
+
+.contain_section::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.contain_section::-webkit-scrollbar-thumb {
+    background-color: blueviolet; 
+    border-radius: 10px; 
+}
+
+.contain_section::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+}
+
+ .education_details{
+    background-color: rgb(255, 255, 255);
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid black;
+    opacity: 0.6;
+    margin-top: 1%;
+    cursor: pointer;
+    height: 50%;
+ }
+
+ .education_details:hover{
+    opacity: 1;
+ }
+ .degree_name{
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .degree_details{
+    font-size: 16px;
+    white-space: normal;
+    word-wrap: break-word;
+    color: rgb(0, 0, 0); 
+ }
+
+
+
+ /* skills section */
+ .skill_container{
+    background-color: white;
+    width: 22%;
+    padding: 1%;
+    border-radius: 10px;
+    opacity: 0.6;
+    height: 50%;
+ }
+ .skill_container:hover{
+    opacity: 1;
+ }
+ .skill_name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5%;
+ }
+ .skill li{
+    font-size: 16px;
+    color: black;
+    padding-left: 5%;
+ }
+ .skill{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+ }
+
+ /* experions section */
+ .exp_container{
+    background-color: white;
+    width: 47%;
+    border-radius: 10px; 
+    padding: 1%;
+    height: 50%;
+ }
+
+ .company_name{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .possition{
+     font-size: 18px;
+    font-weight: bold;
+        padding: 0;
+    margin: 0;
+ }
+ .project_name{
+      font-size: 18px;
+    font-weight: bold;
+        padding: 0;
+    margin: 0;
+ }
+.skill .proj{
+    font-size: 16px;
+  }
+ .framework{
+    color: rgba(6, 2, 238, 0.562);
+    font-weight: bold;
+ }
+
+
+ /* cetificate container */
+
+ .cet_container{
+    width:100% ;
+ }
+ .certficate_one{
+    background-color:blueviolet;
+    max-width: 90%;
+    margin-top: 2%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   text-align: center;
+   overflow: hidden;
+ } 
+ .cource_name{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+ }
+ .cource_place{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+ }
+
+.cert_img{
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.certficate_one:hover .cert_img{
+    transform: scale(1.1);
+}
+
+.resume_line{
+    margin: 0 auto;
+    width: 98%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 5%;
+}
+.cet_container .slick-dots li button:before {
+    color: rgb(255, 255, 255);
+  }
+  .cet_container .slick-dots li button {
+    font-size: 16px; 
+  }
+  .cet_container .slick-dots li.slick-active button:before {
+    color: rgb(255, 255, 255); 
+  }
+
+@media only screen and (min-width : 1540px) {
+    .my_journey{
+        font-size: 20px;
+    }
+    .resume{
+        font-size: 60px !important;
+    }
+.resume_button1,
+.resume_button2,
+.resume_button3,
+.resume_button4{
+    font-size: 20px;
+}
+.degree_name{
+    font-size: 20px;
+ }
+ .degree_details{
+    font-size: 18px;
+ }
+ .skill_name{
+    font-size: 20px;
+ }
+ .skill li{
+    font-size: 18px;
+ }
+ .company_name{
+    font-size: 20px;
+ }
+ .possition{
+     font-size: 18px;
+ }
+ .cource_name{
+    font-size: 20px;
+ }
+ .cource_place{
+    font-size: 18px;
+ }
+ .two_section{
+    height: 550px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+    .education_details{
+        width: 70%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+     }
+     .skill_container{
+        width: 47%;
+        height: 50%;
+        margin-top: 2%;
+     }
+     .exp_container{
+        width: 70%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+     }
+     .cource_name{
+        font-size: 17px;
+     }
+     .cource_place{
+        font-size: 17px;
+     }
+    
+}
+@media screen and (max-width: 900px) {
+    .education_details{
+        width: 90% ;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+     }
+     .skill_container{
+        width: 47%;
+        height: 50%;
+        margin-top: 2%;
+     }
+     .exp_container{
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+     }
+     .cource_name{
+        font-size: 15px;
+     }
+     .cource_place{
+        font-size: 14px;
+     }
+     .resume_button1,
+.resume_button2,
+.resume_button3,
+.resume_button4{
+    font-size: 15px;
+    width: 90%;
+}
+    
+}
+@media screen and (max-width: 599px) {
+   
+
+.two_section{
+    flex-direction: column;
+    height: 400px;
+    padding: 0%;
+    margin: 0 auto;
+}
+.resume_navbar{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.resume_button1,
+.resume_button3,
+.resume_button4{
+    text-align: center;
+    width: 20%;
+    font-size: 15px;
+    margin-top: 0%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.resume_button2{
+    text-align: center;
+    width: 30%;
+    font-size: 15px;
+    margin-top: 0%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.resume_button1,
+.resume_button2,
+.resume_button3,
+.resume_button4{
+    margin-left:0% ;
+}
+.contain_section{
+    /* background-color: chocolate; */
+    width: 95%;
+ }
+ .education_details{
+    height: 60%;
+    width: 98%;
+ }
+ .skill_container{
+    height: 70%;
+    width: 47%;
+ }
+ .exp_container{
+    height: 60%;
+    width: 98%;
+ }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+   
+    .two_section{
+        height: 400px;
+        padding: 0%;
+        width: 100%;
+    }
+    .resume_navbar{
+        width: 98%;
+    }
+    .resume_button1,
+    .resume_button3,
+    .resume_button4{
+    
+        width: 22%;
+        font-size: 12px;
+        margin-top: 0%;
+        padding: 1% 0 1% 0;
+        border-radius: 5px;
+        border-right: 1px solid white;
+    }
+    .resume_button2{
+        text-align: center;
+        width: 33%;
+        font-size: 12px;
+        margin-top: 0%;
+        padding: 1% 0 1% 0;
+        border-radius: 5px;
+        border-right: 1px solid white;
+    }
+  
+    .contain_section{
+        width: 95%;
+     }
+     .project_name,
+    .company_name,
+     .degree_name{
+        font-size: 15px;
+     }
+    
+     .possition{
+        font-size: 14px;
+     }
+     .skill .proj{
+        font-size: 14px;
+      }
+     .framework{
+        font-size: 14px;
+     }
+     .degree_details{
+        font-size: 14px;
+     }
+     .education_details{
+        height: 50%;
+     }
+     .skill_container{
+        width: 80%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+     }
+    }

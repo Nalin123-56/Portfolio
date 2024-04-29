@@ -1,0 +1,226 @@
+.project_container{
+    background-color:rgb(22, 1, 61) ;
+    max-width: 100%;
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+.project_topic{
+    /* background-color: brown; */
+    text-align: center;
+
+}
+.my_work{
+    color: white;
+    font-size: 17px;
+}
+.proj{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+/*project nav bar*/
+.web_project_navbar{
+    background-color: blueviolet;
+    max-width: 90%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.proj_button{
+   width: 25%;
+    padding: 1%;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.9s;
+}
+.proj_button.active {
+    background-color: white; 
+    color: blueviolet;
+}
+.proj_button:hover{
+background-color: white;
+color: blueviolet;
+}
+
+/*project section*/
+.project_section{
+    /* background-color: chartreuse; */
+    max-width: 100%;
+    padding: 2%;
+     justify-content: space-between;    
+}
+
+
+.project{
+    background-color:blueviolet;
+    max-width: 90%;
+    margin-top: 2%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.project:hover{
+    background-color: white;
+}
+.project:hover .project_description{
+color: blueviolet;
+}
+.project:hover .project_name{
+color: blueviolet;
+}
+.project_img{
+    background-color:rgb(22, 1, 61) ;
+    max-width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.project:hover .project_img{
+    background-color: blueviolet;
+    }
+.project1{
+    width: 60%;
+display: flex;
+align-self: center;
+transition: transform 0.5s ease-in-out;
+}
+.project:hover .project1{
+    transform: scale(1.1);
+}
+.project_name_section{
+    /* background-color: deeppink; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+    .project_name{
+    color:  rgb(21, 1, 39);
+}
+.github_icon{
+    background-color: rgb(21, 1, 39);
+    padding: 2%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_details{
+    /* background-color: blueviolet; */
+    max-width: 100%;
+    display: flex;
+}
+.project_description{
+    max-width: 100%;
+    text-align: justify;
+    color: white;
+}
+
+
+.project_container .slick-dots li button:before {
+    color: rgb(255, 255, 255);
+  }
+  .project_container .slick-dots li button {
+    font-size: 16px; 
+  }
+  .project_container .slick-dots li.slick-active button:before {
+    color: rgb(255, 255, 255); 
+  }
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.project_line{
+    margin: 0 auto;
+    width: 98%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width:1540px) {
+
+    .my_work{
+        font-size: 20px;
+    }
+    .proj{
+        font-size: 55px;
+    }
+
+  
+    .proj_button{
+        padding: 1.5%;
+        font-size: 20px;
+    }
+
+    .github_icon{
+        width: 30px;
+        height: 30px;
+    }
+    .project_details{
+        max-width: 100%;
+        display: flex;
+    }
+    .project_description{
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+
+    .proj_button{
+         font-size: 17px;
+     }
+}
+@media only screen and (max-width:767px) {
+    .web_project_navbar{
+        max-width: 95%;
+    }
+    .proj_button{
+         font-size: 16px;
+     }
+}
+@media only screen and (max-width:650px) {
+    .web_project_navbar{
+        max-width: 95%;
+    }
+    .proj_button{
+         font-size: 14px;
+     }
+}
+
+@media only screen and (max-width:576px) {
+    .web_project_navbar{
+        max-width: 99%;
+    }
+    .proj_button{
+         font-size: 12px;
+         padding: 1% 0 1% 0;
+         border-radius: 5px;
+         border-right: 1px solid white;
+         font-size: 12px;
+     }
+     .web_project_navbar{
+        border-radius: 5px;
+     }
+     .project_description{
+        font-size: 14px;
+     }
+}

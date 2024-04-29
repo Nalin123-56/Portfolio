@@ -1,0 +1,349 @@
+.full_contact_container{
+    max-width: 100%;
+    background-color:rgb(22, 1, 61) ;
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+
+.contact{
+text-align: center;
+color: white;
+font-size: 50px;
+}
+
+.contact_container{
+    /* background-color: rgb(48, 177, 228); */
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color:rgb(22, 1, 61) ;
+}
+.left_contact{
+    background-color: rgb(229, 202, 241);
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.contact_img{
+    width: 80%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    align-self: center;
+}
+.contact_name{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    color: rgb(70, 6, 131);
+    font-weight: bold;
+}
+.contact_possition{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.contact_details{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+.email,
+.phone{
+    font-weight: bold;
+}
+
+
+/*find icon section*/
+.c_find{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.c_find_container{
+    /* background-color: rgb(238, 255, 0); */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.c_find_icon{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+.c_fb{
+    padding: 12%;
+    background-color:  blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.c_git,
+.c_linkdin{
+    padding: 12%;
+    background-color:  blueviolet;
+    margin-left: 12%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.c_git:hover,
+.c_fb:hover,
+.c_linkdin:hover{
+    transform: translateY(-8px);
+    background-color: white;
+}
+
+.c_git:hover svg path,
+.c_linkdin:hover svg path,
+.c_fb:hover svg path{
+    fill: blueviolet;
+}
+
+  /*right section*/
+
+  .right_contact{
+    /* background-color: darkmagenta; */
+    width: 55%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.name_section{
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+  width: 100%;
+  justify-content: space-between;
+}
+.name_input,
+.phone_input{
+  width: 100%;
+  border: 2px solid blueviolet;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.phone_parent,
+.phone_parent{
+/* background-color: aqua; */
+width: 46%;
+}
+.subject_input,
+.email_input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+.message_input{
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+
+.sent_button{
+    float: right;
+    padding: 2% 7%;
+    margin-top: 5%;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+} 
+.label {
+    margin-top: 3%;
+}
+
+.email_section,
+.subject_section,
+.message_section{
+margin-top: 5%;
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.message_input:focus,
+.name_input:focus,
+.phone_input:focus,
+.subject_input:focus,
+.email_input:focus{
+    outline: none;
+}
+
+.contact_line{
+    margin: 0 auto;
+    width: 98%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width:1540px) {
+
+    .contact{
+    font-size: 55px;
+    }
+
+    .contact_name{
+        font-size: 35px;
+    }
+    .contact_possition{
+        font-size: 25px;      
+    }
+    .contact_details{
+        font-size: 18px;
+    }
+    .contact_number,
+    .contact_email,
+    .email,
+    .phone{
+        font-size: 18px;
+    }
+    
+    
+    /*find icon section*/
+    .c_find{
+        font-size: 22px;
+    }
+    .c_fb{
+        padding: 14%;
+    }
+    .c_git,
+    .c_linkdin{
+        padding: 14%;
+        margin-left: 14%;
+        
+    }
+    
+    
+    
+      /*right section*/
+
+    .name_input,
+    .phone_input{
+      height: 50px;
+      font-size: 18px;
+    }
+    
+    .subject_input,
+    .email_input{
+        height: 50px;
+        font-size: 18px;
+    }
+    .message_input{
+        height: 150px;
+        font-size: 18px;
+    }
+    
+    .sent_button{
+        font-size: 20px;
+    } 
+ 
+    
+    .email_section,
+    .subject_section,
+    .message_section{
+    margin-top: 7%;
+    }
+    .label{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:1050px) {
+    .left_contact{
+        width: 30%;
+    }
+    .right_contact{
+        width: 56%;
+}
+}
+@media screen and (max-width:992px) {
+    .left_contact{
+        width: 34%;
+    }
+    .contact_name{
+        font-size: 25px;
+    }
+    .contact_possition{
+        font-size: 20px;  
+    }
+    .contact_details{
+        font-size: 14px;
+    }
+    .contact_number,
+    .contact_email,
+    .email,
+    .phone{
+        font-size: 14px;
+}
+.c_find{
+    font-size: 18px;
+}
+.c_fb{
+    padding: 10%;
+}
+.c_git,
+.c_linkdin{
+    padding: 10%;
+    
+}
+}
+
+@media screen and (max-width:767px) {
+    .contact_container{
+        flex-direction: column;
+    }
+    .left_contact{
+        width: 50%;
+        border-radius: 10px 10px 10px 10px;
+        margin: 0 auto;
+    }
+    .right_contact{
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px) {
+   
+    .left_contact{
+        width: 70%;
+    }
+    .right_contact{
+        width: 90%;
+    }
+    .name_section{
+        flex-direction: column;
+      }
+      .phone_parent,
+      .phone_parent{
+      width: 100%;
+      margin-top: 5%;
+      }
+}
+@media screen and (max-width:400px) {
+   
+    .left_contact{
+        width: 90%;
+    }
+    .right_contact{
+        width: 95%;
+    }
+}

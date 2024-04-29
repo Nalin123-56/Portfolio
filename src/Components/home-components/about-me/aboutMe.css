@@ -1,0 +1,295 @@
+.about_me_container{
+    background-color:rgb(22, 1, 61) ;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.left_about{
+    /* background-color: aqua; */
+    width: 50%;
+    padding: 2%;
+    margin-top: 3%;
+}
+.wel_come{
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    z-index: 100;
+}
+.hi{
+    font-size: 50px;
+}
+.nalin{
+    color: blueviolet;
+}
+.web{
+    font-size: 30px;
+}
+.description{
+    font-size: 17px;
+    text-align: justify;
+}
+.find{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.find_container{
+    /* background-color: rgb(238, 255, 0); */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.find_icon{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+.fb{
+    padding: 12%;
+    background-color:  blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.git,
+.linkdin{
+    padding: 12%;
+    background-color:  blueviolet;
+    margin-left: 12%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.git:hover,
+.fb:hover,
+.linkdin:hover{
+    transform: translateY(-8px);
+    background-color: white;
+}
+
+.git:hover svg path,
+.linkdin:hover svg path,
+.fb:hover svg path{
+    fill: blueviolet;
+  }
+.contact_button{
+    background-color: blueviolet;
+    border: none;
+    padding: 2% 4%;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.right_about{
+    /* background-color: rgb(48, 219, 100); */
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro_img{
+    width: 550px;
+    height: auto;
+}
+
+@media screen and (min-width: 1540px) {
+
+    .wel_come{
+        font-size: 18px;
+    }
+    .hi{
+        font-size: 55px;
+    }
+    
+    .web{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 18px;
+    }
+    .find{
+        font-size: 22px;
+    }
+    
+    .fb{
+        padding: 13%;
+    }
+    .git,
+    .linkdin{
+        margin-left: 13%;
+        
+    }
+    .contact_button{
+        font-size: 18px;
+    }
+    .pro_img{
+        width: 700px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1124px) {
+
+    .left_about{
+        margin-top: 0;
+    }
+    .wel_come{
+        font-size: 16px;
+    }
+    .hi{
+        font-size: 45px;
+    }
+   
+    .web{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .find{
+        font-size: 18px;
+    }
+    
+    .pro_img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .pro_img{
+        width: 380px;
+    }
+    .left_about{
+        margin-top: 0;
+    }
+    .wel_come{
+        font-size: 16px;
+    }
+    .hi{
+        font-size: 40px;
+    }
+    .web{
+        font-size: 25px;
+        
+    }
+    .description{
+        font-size: 13px;
+        margin: 0;
+        padding: 0
+    }
+    .find{
+        font-size: 17px;
+    }
+    .fb{
+        padding: 8%
+    }
+    .git,
+    .linkdin{
+        padding: 8%;
+        
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about_me_container{
+        flex-direction: column;
+        position: relative;
+    }
+     .left_about{
+        width: 90%;
+        padding: 2%;
+        margin-top: 3%;
+        margin: 0 auto;
+    } 
+   
+    
+    .right_about{
+        width: 100%;
+    }
+    .pro_img{
+        width: 230px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+@media screen and (max-width:480px) {
+     .left_about{
+        width: 95%;
+        padding: 1%;
+    } 
+    
+    .right_about{
+        width: 100%;
+    }
+    .pro_img{
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .hi{
+        font-size: 35px;
+    }
+    .web{
+        font-size: 22px;
+        
+    }
+    .find{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:419px) {
+
+    
+    .right_about{
+        width: 100%;
+    }
+    .pro_img{
+        width: 180px;
+    }
+    .hi{
+        font-size: 30px;
+    }
+    .web{
+        font-size: 20px;
+        
+    }
+
+}
+@media screen and (max-width:389px) {
+
+    .pro_img{
+        width: 150px;
+        z-index: 10;
+    }
+    .hi{
+        font-size: 25px;
+    }
+    .web{
+        font-size: 18px;
+        
+    }
+    .wel_come{
+        font-size: 14px;
+        z-index: 100;
+    }
+    .description{
+        font-size: 12px;
+    }
+
+}
+
