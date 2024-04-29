@@ -13,7 +13,7 @@ import Footer from './Components/footer/Footer';
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/> */}
+      <NavBar/>
       <AboutMe/>
       <Services/>
       <Projects/>
