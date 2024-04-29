@@ -5,6 +5,7 @@ import Git from "../../../svg/Git";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import portfolio from '../../../images/portfolioo-img.png'
 
 
 const Projects = () => {
@@ -16,7 +17,7 @@ const Projects = () => {
       };
 
     const webData = [
-        {id:1, project_img: project1 ,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: portfolio ,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:2, project_img: project1,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:3, project_img: project1,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:4, project_img: project1,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
