@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './navBar.css'
 import Menu from '../../svg/Menu'
 import Close from '../../svg/Close'
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,12 +11,12 @@ const NavBar = () => {
     setMenuOpen(!menuOpen);
   };
     const pageName = [
-        {id:1, name:'Home', url:""},
-        {id:2, name:'Service', url:""},
-        {id:3, name:'Project', url:""},
-        {id:4, name:'Resume', url:""},
-        {id:5, name:'Experience', url:""},
-        {id:6, name:'Contact', url:""},
+        {id:"about", name:'Home',url:"" },
+        {id:"service", name:'Service', url:""},
+        {id:"project", name:'Project', url:""},
+        {id:"resume", name:'Resume', url:""},
+        {id:"experience", name:'Experience', url:""},
+        {id:"contact", name:'Contact', url:""},
     ]
   return (
     <div className='nav'>
@@ -30,7 +31,16 @@ const NavBar = () => {
           </button>
       <ul className={menuOpen ? 'menu_open' : ''}>
                 {pageName.map((item)=>(
+                  <Link 
+                  className='navname'
+                  to={item.id} 
+                  spy={true} 
+                  smooth={true} 
+                  offset={50} 
+                  duration={500}>
                     <li>{item.name}</li>
+                  </Link>
+                    
                 ))}
                 
             </ul>

@@ -13,7 +13,7 @@ const Services = () => {
     ];
   return (
     <>
-    <div className='services_container'>
+    <div id='service' className='services_container'>
     <hr className='service_line'/>
         <div className='topic_container'>
            <p className='service_that'>  SERVICES THAT I OFFER AS A FREELANCER</p>

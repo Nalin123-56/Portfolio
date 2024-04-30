@@ -4,6 +4,33 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import javaScript from '../../../images/javaScript.jpg'
+import lankatec from '../../../images/lankatec.jpg'
+import menglish2 from '../../../images/manoj-english2.jpg'
+import prefect from '../../../images/prefect.jpg'
+import leadership from '../../../images/leadership.jpg'
+import menglish1 from '../../../images/manoj-english.jpg'
+import uenglish from '../../../images/upul-english.jpg'
+import palath from '../../../images/palath.jpg'
+import rajarata1 from '../../../images/rajarata1.jpg'
+import rajarata2 from '../../../images/rajarata2.jpg'
+import police from '../../../images/police-volley.jpg'
+import dsi from '../../../images/dsi.jpg'
+import kalapa1 from '../../../images/kalapa1.jpg'
+import kalapa2 from '../../../images/kalapa2.jpg'
+import kalapa3 from '../../../images/kalapa3.jpg'
+import volleypre from '../../../images/volleypre.jpg'
+import volley2 from '../../../images/volley2.jpg'
+import volley1 from '../../../images/volley1.jpg'
+import roadrace from '../../../images/roadrace.jpg'
+import loongjump from '../../../images/loongjump.jpg'
+import foodball from '../../../images/foodball.jpg'
+import elle from '../../../images/elle.jpg'
+import clear2 from '../../../images/clear2.jpg'
+import clear1 from '../../../images/clear1.jpg'
+
+
+
+
 
 const Resume = () => {
     const [activeSection, setActiveSection] = useState ('edu')
@@ -13,11 +40,11 @@ const Resume = () => {
       };
 
       const educationDetails = [
-        {id:1, name:"Bachelor of Information and Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"Bachelor of Information and Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"Bachelor of Information and Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"Bachelor of Information and Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"Bachelor of Information and Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
+        {id:1, name:"Bachelor of Information Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
+        {id:1, name:"G.C.E Advanced Level - 2017 / (index no - 7538812) ", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
+        {id:1, name:"Diploma In English Course - 2018 (SIX Month)"},
+        {id:1, name:"Diploma In Microsoft Office Course - 2013 (SIX Month)"},
+    
       ];
       const SkillData = [
         {id:1, skillName:"Programming Skill", skill1:"HTML / CSS / Java Script", skill2:"React JS", skill3:"Next JS", skill4:"React Native", skill5:"Bootsrap"},
@@ -28,14 +55,33 @@ const Resume = () => {
       ];
       const expData = [
         {id:1, companyName:"ORIONUX (Pvt) Ltd", possition:"6 month Internship - Front end Developer", projectName:"Project :", project1:"Services App-front-end",framework1:"/ React Native", project2:"Freelancer Web Site - front-end",framework2:"/ React JS", project3:"Slider Web Site - Frontend",framework3:"/ Next JS", project4:"Company Website Updated - Front-end",framework4:"/ Next JS ",},
-        {id:2, companyName:"ORIONUX (Pvt) Ltd", possition:"6 month Internship - Front end Developer", projectName:"Project :", project1:"Services App-front-end",framework1:"/ React Native", project2:"Freelancer Web Site - front-end",framework2:"/ React JS", project3:"Slider Web Site - Frontend",framework3:"/ Next JS", project4:"Company Website Updated - Front-end",framework4:"/ Next JS ",},
       ];
 
       const certData = [
-        {id:1, img:javaScript, courceName:"", courcePlace:""},
-        {id:1, img:javaScript, courceName:"", courcePlace:""},
-        {id:1, img:javaScript, courceName:"", courcePlace:""},
-        {id:1, img:javaScript, courceName:"", courcePlace:""},
+        {id:1, img:javaScript, courceName:"JAVA SCRIPT", courcePlace:"Offered by Sololearn"},
+        {id:2, img:lankatec , courceName:"MICROSOFT OFFICE", courcePlace:"Lanka tech - welimada"},
+        {id:3, img:menglish2 , courceName:"SPOKEN ENGLISH", courcePlace:"Sarasavi English Academy"},
+        {id:4, img:prefect , courceName:"PREFECT", courcePlace:"B/Medawela M.V"},
+        {id:4, img:leadership  , courceName:"LEADERSHIP", courcePlace:"B/Medawela M.V"},
+        {id:4, img:menglish1  , courceName:"ENGLISH CORSE", courcePlace:"Sarasavi English Academy"},
+        {id:4, img:uenglish  , courceName:"ENGLISH CORSE", courcePlace:"Royal Way Academy"},
+        {id:4, img:palath  , courceName:"VOLLEYBALL (sport)", courcePlace:"provinces - Uva"},
+        {id:4, img:rajarata1  , courceName:"VOLLEYBALL (sport)", courcePlace:"Rajarata University"},
+        {id:4, img:rajarata2  , courceName:"ROAD RACE (sport)", courcePlace:"Rajarata University"},
+        {id:4, img:police  , courceName:"VOLLEYBALL (sport)", courcePlace:"Offered by Police"},
+        {id:4, img:dsi  , courceName:"VOLLEYBALL (sport)", courcePlace:"Offered by DSI"},
+        {id:4, img:kalapa1  , courceName:"VOLLEYBALL (sport)", courcePlace:"Regional - Welimada"},
+        {id:4, img:kalapa2  , courceName:"VOLLEYBALL (sport)", courcePlace:"Regional - Welimada"},
+        {id:4, img:kalapa3  , courceName:"VOLLEYBALL (sport)", courcePlace:"Regional - Welimada"},
+        {id:4, img:volleypre   , courceName:"VOLLEYBALL (sport)", courcePlace:"Sport meet"},
+        {id:4, img:volley2   , courceName:"VOLLEYBALL (sport)", courcePlace:"Sport meet"},
+        {id:4, img:volley1   , courceName:"VOLLEYBALL (sport)", courcePlace:"Sport meet"},
+        {id:4, img:roadrace   , courceName:"ROAD RACE (sport)", courcePlace:"Sport meet"},
+        {id:4, img:loongjump   , courceName:"LONG JUMP (sport)", courcePlace:"Sport meet"},
+        {id:4, img:foodball   , courceName:"FOOD BALL (sport)", courcePlace:"Sport meet"},
+        {id:4, img:elle   , courceName:"ELLE (sport)", courcePlace:"Sport meet"},
+        {id:4, img:clear2   , courceName:"CLEAN BOOKS", courcePlace:"B/Medawela M.V"},
+        {id:4, img:clear1   , courceName:"CLEAN BOOKS", courcePlace:"B/Medawela M.V"},
       ];
 
 
@@ -106,7 +152,7 @@ const Resume = () => {
         ]
       };
   return (
-    <div className='resume'>
+    <div id='resume' className='resume'>
 <hr className='resume_line'/>
          <div className='resume_topic'>
             <p className='my_journey'>MY JOURNEY IN THE ACADEMIC & PROFESSIONAL FRONT</p>
@@ -116,7 +162,7 @@ const Resume = () => {
             <div className='resume_navbar'>
                   <button className={`resume_button1 ${activeSection ==='edu' ? 'active' : ''}`}onClick={() => handleSectionChange('edu')}>Education</button>
                   <button className={`resume_button2 ${activeSection === 'skill' ? 'active' : ''}`} onClick={() => handleSectionChange('skill')}>Professional Skill</button>
-                  <button className={`resume_button3 ${activeSection === 'exp' ? 'active' : ''}`} onClick={() => handleSectionChange('exp')}>Experience</button>
+                  <button id='experience' className={`resume_button3 ${activeSection === 'exp' ? 'active' : ''}`} onClick={() => handleSectionChange('exp')}>Experience</button>
                   <button className={`resume_button4 ${activeSection === 'cert' ? 'active' : ''}`} onClick={() => handleSectionChange('cert')}>Certificates</button>
             </div>
            
@@ -126,7 +172,7 @@ const Resume = () => {
             {activeSection === 'edu' && (
               educationDetails.map((item)=>(
                 <div key={item.id} className='education_details'>
-                  <p className='degree_name'>{"Bachelor of Information and Communication Technology (BICT)"}</p>
+                  <p className='degree_name'>{item.name}</p>
                   <span className='degree_details'>I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program.</span>
                 </div>
               ))
@@ -151,7 +197,7 @@ const Resume = () => {
 
               {activeSection === 'exp' && (
                 expData.map((item) => (
-                  <div className='exp_container'> 
+                  <div  className='exp_container'> 
                      <div className='company_name'>{item.companyName}</div>
                      <h5 className='possition'>{item.possition}</h5>
                      <h6 className='project_name'>{item.projectName} </h6>
@@ -173,8 +219,8 @@ const Resume = () => {
                         {certData.map((item) => (
                           <div key={item.id} className='certficate_one'>
                           <img className='cert_img' src={item.img} alt='' />
-                          <h6 className='cource_name'>OFFICE COURCE</h6>
-                          <p className='cource_place'>Lanka TECH- welimada</p>
+                          <h6 className='cource_name'>{item.courceName}</h6>
+                          <p className='cource_place'>{item.courcePlace}</p>
                         </div>
                         ))}
                         

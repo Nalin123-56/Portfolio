@@ -195,6 +195,13 @@ margin-top: 5%;
     margin-bottom: 5%;
 }
 
+.dot{
+    color: rgb(22, 1, 61) ;
+}
+.error{
+    color: yellow;
+}
+
 @media only screen and (min-width:1540px) {
 
     .contact{
@@ -313,9 +320,10 @@ margin-top: 5%;
         flex-direction: column;
     }
     .left_contact{
-        width: 50%;
+        width: 55%;
         border-radius: 10px 10px 10px 10px;
         margin: 0 auto;
+        padding: 3%;
     }
     .right_contact{
         width: 90%;

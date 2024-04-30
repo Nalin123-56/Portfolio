@@ -6,13 +6,17 @@ import Git from "../../../svg/Git";
 import LinkedIn from "../../../svg/LinkedIn";
 import { Typewriter } from 'react-simple-typewriter'
 import Arrow from "../../../svg/Arrow";
+import { Link } from 'react-scroll'
 
 
 const AboutMe = () => {
 
+  const linkedin = 'https://www.linkedin.com/in/nalin-priyankara-580513275/';
+  const github = 'https://github.com/Nalin123-56';
+  const facebook = 'https://www.facebook.com/profile.php?id=100014221509513';
 
   return (
-    <div className="about_me_container">
+    <div id="about" className="about_me_container">
       
       <div className="left_about">
         <p className="wel_come">WELCOME TO MY PORTFOLIO</p>
@@ -30,17 +34,35 @@ const AboutMe = () => {
         <p className="find">FIND ME ON</p>
         <div className="find_container">
           <div className="find_icon">
-            <div className="fb">
+          <a href={facebook} target="_blank" rel="noopener noreferrer"  className="fb">
+            <div >
                <Fb />
             </div>
-            <div className="git">
+            </a>
+            <a href={github} target="_blank" rel="noopener noreferrer" className="git" >
+            <div>
               <Git />
             </div>
-            <div className="linkdin">
+            </a>
+            <a href={linkedin} target="_blank" rel="noopener noreferrer" className="linkdin">
+             <div>
               <LinkedIn />
             </div>
+            </a>
+            
+            
+            
+            
           </div>
-          <button className="contact_button">Contact</button>
+                  <Link  className="contact_button"
+                  to="contact"
+                  spy={true} 
+                  smooth={true} 
+                  offset={50} 
+                  duration={500}>
+                    <button className="contact_button">Contact</button>
+                  </Link>
+          
         </div>
       </div>
       <div className="right_about">

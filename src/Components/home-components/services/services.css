@@ -27,12 +27,13 @@
 }
 .service_section{
     background-color:blueviolet;
-    width: 30%;
+    width: 40%;
     padding: 1%;
-    margin-top: 2%;
     border-radius: 10px;
     transition:transform 0.4s ease-in-out;
     cursor: pointer;
+    margin: 0 auto;
+    margin-top: 3%;
 }
 
 .service_section:hover{
@@ -71,7 +72,7 @@
     }
 
     .service_section{
-        width: 28%;
+        width: 44%;
         padding: 2%;
         margin-top: 2%;
     }

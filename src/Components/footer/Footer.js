@@ -6,19 +6,31 @@ import LinkedIn from '../../svg/LinkedIn'
 
 
 const Footer = () => {
+
+  const linkedin = 'https://www.linkedin.com/in/nalin-priyankara-580513275/';
+  const github = 'https://github.com/Nalin123-56';
+  const facebook = 'https://www.facebook.com/profile.php?id=100014221509513';
+
+
   return (
-    <div className='footer_container'>
+    <div id='footer' className='footer_container'>
           <hr className='footer_line'/>
        <div className='contact_icon_container'>
-       <div className="f_fb">
-               <Fb/>
+        <a href={facebook} target="_blank" rel="noopener noreferrer"  className="f_fb">
+            <div >
+               <Fb />
             </div>
-            <div className="f_git">
+            </a>
+            <a href={github} target="_blank" rel="noopener noreferrer" className="f_git" >
+            <div>
               <Git />
             </div>
-            <div className="f_linkdin">
+            </a>
+            <a href={linkedin} target="_blank" rel="noopener noreferrer" className="f_linkdin">
+             <div>
               <LinkedIn />
             </div>
+            </a>
        </div>
     <p className='design_by'>Designed by Nalin Priyankara || All rights reserved.</p>
     </div>

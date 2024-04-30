@@ -87,6 +87,9 @@ margin: 0 auto;
         border-radius: 10px;
         padding: 2%;
       }
+      .page_container .menu_open  .navname{
+        width: 98%;;
+      }
       .page_container .menu_open  li{
         width: 98%;
         margin-left: 0;

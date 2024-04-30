@@ -87,6 +87,11 @@
     font-size: 16px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.contact_button:hover{
+    transform: scale(1.2);
 }
 
 .right_about{

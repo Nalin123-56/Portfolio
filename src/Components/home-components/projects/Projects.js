@@ -42,7 +42,7 @@ const Projects = () => {
         {id:3, project_img: freelancer,projectName:"FREELANCER - FRONTEND", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:4, project_img: cake,projectName:"CAKE ORDER - FRONTEND ", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:5, project_img: lms,projectName:"LMS SYSTEM - FRONTEND", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:6, project_img: scooter,projectName:"SCOORTER SALE - FRONTEND", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:6, project_img: scooter,projectName:"SCOOTER SALE - FRONTEND", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:7, project_img: todo,projectName:"TODO WEB APP", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:8, project_img: form,projectName:"FORM VALIDATION", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:9, project_img: facebook,projectName:"FACEBOOK WEB PAGE", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
@@ -61,7 +61,7 @@ const Projects = () => {
         {id:4, project_img: fooddeleveryUI,projectName:"FOOD DELEVERY UI", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:5, project_img: loginUI,projectName:"LOGIN / SIGN UP UI", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:6, project_img: shoseUI,projectName:"SHOSE APP UI", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:6, project_img: headphoneUI,projectName:"E-COMMERCE UI", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:7, project_img: headphoneUI,projectName:"E-COMMERCE UI", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
     ];
     const GrapichData = [
         {id:1, project_img: project1 ,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
@@ -75,10 +75,10 @@ const Projects = () => {
     var settings = {
         className: "center",
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 3.5,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         initialSlide: 0,
         // autoplay: true,
         // speed:3000,
@@ -94,7 +94,7 @@ const Projects = () => {
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
-              infinite: true,
+              infinite: false,
               dots: true
             }
           },
@@ -102,8 +102,8 @@ const Projects = () => {
             breakpoint: 992,
             settings: {
               slidesToShow: 2.5,
-              slidesToScroll: 1,
-              infinite: true,
+              slidesToScroll: 2,
+              infinite: false,
               dots: true
             }
           },
@@ -111,8 +111,8 @@ const Projects = () => {
             breakpoint: 768,
             settings: {
               slidesToShow: 1.7,
-              slidesToScroll: 1,
-              infinite: true,
+              slidesToScroll: 2,
+              infinite: false,
               dots: true
             }
           },
@@ -141,7 +141,7 @@ const Projects = () => {
         ]
       };
   return (
-    <div className='project_container'>
+    <div id='project' className='project_container'>
          <hr className='project_line'/>
         <div className='project_topic'>
             <p className='my_work'>MY WORKS, PROJECTS & CONTRIBUTIONS</p>
