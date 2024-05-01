@@ -58,7 +58,7 @@ color: blueviolet;
 
 
 .project{
-    background-color:blueviolet;
+    background-color:rgb(226, 223, 223);
     max-width: 90%;
     margin-top: 2%;
     padding: 3%;
@@ -67,19 +67,20 @@ color: blueviolet;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    /* height: 380px; */
 }
 
 .project:hover{
-    background-color: white;
+    background-color: blueviolet;
 }
 .project:hover .project_description{
-color: blueviolet;
+color: rgb(255, 255, 255);
 }
 .project:hover .project_name{
-color: blueviolet;
+color: rgb(5, 0, 0);
 }
 .project_img{
-    background-color:rgb(22, 1, 61) ;
+    background-color:blueviolet;
     max-width: 100%;
     padding: 5%;
     display: flex;
@@ -89,13 +90,13 @@ color: blueviolet;
     height: 150px;
 }
 .project:hover .project_img{
-    background-color: blueviolet;
+    background-color: rgb(226, 223, 223);
     }
 .project1{
     width: 80%;
-display: flex;
-align-self: center;
-transition: transform 0.5s ease-in-out;
+    display: flex;
+    align-self: center;
+    transition: transform 0.5s ease-in-out;
 }
 .project:hover .project1{
     transform: scale(1.1);
@@ -113,14 +114,19 @@ transition: transform 0.5s ease-in-out;
     color:  rgb(21, 1, 39);
 }
 .github_icon{
-    background-color: rgb(21, 1, 39);
-    padding: 2%;
+    background-color:blueviolet;
+    padding: 1.5%;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+.project:hover .github_icon g{
+    fill:rgb(255, 255, 255);
+}
+.project:hover .github_icon{
+    background-color:rgb(5, 0, 0) ;
 }
 .project_details{
     /* background-color: blueviolet; */
@@ -130,7 +136,7 @@ transition: transform 0.5s ease-in-out;
 .project_description{
     max-width: 100%;
     text-align: justify;
-    color: white;
+    color: rgb(5, 0, 0);
 }
 
 
@@ -196,6 +202,7 @@ transition: transform 0.5s ease-in-out;
     }
     .proj_button{
          font-size: 16px;
+         padding: 2% 0% 2% 0%;
      }
 }
 @media only screen and (max-width:650px) {
@@ -213,7 +220,7 @@ transition: transform 0.5s ease-in-out;
     }
     .proj_button{
          font-size: 12px;
-         padding: 1% 0 1% 0;
+         padding: 2% 0% 2% 0%;
          border-radius: 5px;
          border-right: 1px solid white;
          font-size: 12px;

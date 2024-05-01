@@ -3,6 +3,7 @@ import './navBar.css'
 import Menu from '../../svg/Menu'
 import Close from '../../svg/Close'
 import { Link } from 'react-scroll'
+import Headroom from 'react-headroom'
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +20,8 @@ const NavBar = () => {
         {id:"contact", name:'Contact', url:""},
     ]
   return (
-    <div className='nav'>
+    <Headroom>
+      <div className='nav'>
     <div className='nav_container'>
       <div className='name'>
         <span className='n'>N</span>
@@ -49,6 +51,8 @@ const NavBar = () => {
     </div>
     <hr className='nav_line'/>
     </div>
+    
+    </Headroom>
     
   )
 }

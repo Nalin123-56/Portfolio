@@ -26,33 +26,36 @@
    flex-wrap: wrap;
 }
 .service_section{
-    background-color:blueviolet;
+    background-color:rgb(230, 228, 228);;
     width: 40%;
     padding: 1%;
     border-radius: 10px;
     transition:transform 0.4s ease-in-out;
     cursor: pointer;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .service_section:hover{
     transform: scale(1.07);
 }
 .service_section:hover{
-    background-color: white;
+    background-color: blueviolet;
 }
-.service_section:hover .move_section {
-    color: blueviolet;
+.service_section:hover .move_section { 
+    color: white;
 }
 .move_section{
-    color: white;
+    color: rgb(45, 2, 85);
+}
+.s_topic{
+    /* margin: 0; */
 }
 .move_section:hover{
     color: blueviolet;
 }
 .service_section:hover .service_icon svg path {
-    fill: blueviolet; 
+    fill: rgb(255, 255, 255); 
 }
 
 .service_line{

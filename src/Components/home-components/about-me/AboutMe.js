@@ -60,7 +60,7 @@ const AboutMe = () => {
                   smooth={true} 
                   offset={50} 
                   duration={500}>
-                    <button className="contact_button">Contact</button>
+                    <button className="contact_button1">Contact</button>
                   </Link>
           
         </div>

@@ -23,16 +23,16 @@
     
 }
 
-.c_git:hover,
-.c_fb:hover,
-.c_linkdin:hover{
+.f_git:hover,
+.f_fb:hover,
+.f_linkdin:hover{
     transform: translateY(-8px);
     background-color: white;
 }
 
-.c_git:hover svg path,
-.c_linkdin:hover svg path,
-.c_fb:hover svg path{
+.f_git:hover svg path,
+.f_linkdin:hover svg path,
+.f_fb:hover svg path{
     fill: blueviolet;
 }
 .contact_icon_container{
@@ -62,8 +62,27 @@
     }
   
 }
+
+@media screen and (max-width:600px) {
+    .f_fb{
+        padding: 2%;
+    }
+    .f_git,
+    .f_linkdin{
+        padding: 2%;    
+    }
+}
 @media screen and (max-width:400px) {
     .design_by{
         font-size: 12px;
+    }
+    
+    .f_fb{
+        padding: 3%;
+    }
+    .f_git,
+    .f_linkdin{
+        padding: 3%;
+        margin-left: 2%; 
     }
 }

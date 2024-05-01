@@ -81,9 +81,15 @@
   }
 .contact_button{
     background-color: blueviolet;
-    border: none;
     padding: 2% 4%;
     border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.contact_button1{
+    background-color: blueviolet;
+    border: none;
     font-size: 16px;
     color: white;
     font-weight: bold;
@@ -91,8 +97,16 @@
     transition: transform 0.5s ease-in-out;
 }
 .contact_button:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
+    background-color: white;
+    color: blueviolet;
 }
+.contact_button:hover .contact_button1 {
+    transform: scale(1.05);
+    background-color: white;
+    color: blueviolet;
+}
+
 
 .right_about{
     /* background-color: rgb(48, 219, 100); */

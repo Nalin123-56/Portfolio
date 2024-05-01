@@ -4,27 +4,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import javaScript from '../../../images/javaScript.jpg'
-import lankatec from '../../../images/lankatec.jpg'
+import lankatec from '../../../images/lankatec.png'
 import menglish2 from '../../../images/manoj-english2.jpg'
 import prefect from '../../../images/prefect.jpg'
-import leadership from '../../../images/leadership.jpg'
-import menglish1 from '../../../images/manoj-english.jpg'
-import uenglish from '../../../images/upul-english.jpg'
-import palath from '../../../images/palath.jpg'
-import rajarata1 from '../../../images/rajarata1.jpg'
-import rajarata2 from '../../../images/rajarata2.jpg'
-import police from '../../../images/police-volley.jpg'
+import leadership from '../../../images/leadership.png'
+import menglish1 from '../../../images/manoj-english.png'
+import uenglish from '../../../images/upul-english.png'
+import palath from '../../../images/palath.png'
+import rajarata1 from '../../../images/rajarata1.png'
+import rajarata2 from '../../../images/rajarata2.png'
+import police from '../../../images/police-volley.png'
 import dsi from '../../../images/dsi.jpg'
-import kalapa1 from '../../../images/kalapa1.jpg'
-import kalapa2 from '../../../images/kalapa2.jpg'
-import kalapa3 from '../../../images/kalapa3.jpg'
-import volleypre from '../../../images/volleypre.jpg'
+import kalapa1 from '../../../images/kalapa1.png'
+import kalapa2 from '../../../images/kalapa2.png'
+import kalapa3 from '../../../images/kalapa3.png'
+import volleypre from '../../../images/volleypre.png'
 import volley2 from '../../../images/volley2.jpg'
-import volley1 from '../../../images/volley1.jpg'
-import roadrace from '../../../images/roadrace.jpg'
-import loongjump from '../../../images/loongjump.jpg'
-import foodball from '../../../images/foodball.jpg'
-import elle from '../../../images/elle.jpg'
+import volley1 from '../../../images/volley1.png'
+import roadrace from '../../../images/roadrace.png'
+import loongjump from '../../../images/loongjump.png'
+import foodball from '../../../images/foodball.png'
+import elle from '../../../images/elle.png'
 import clear2 from '../../../images/clear2.jpg'
 import clear1 from '../../../images/clear1.jpg'
 
@@ -40,10 +40,10 @@ const Resume = () => {
       };
 
       const educationDetails = [
-        {id:1, name:"Bachelor of Information Communication Technology (BICT)", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"G.C.E Advanced Level - 2017 / (index no - 7538812) ", details:"I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."},
-        {id:1, name:"Diploma In English Course - 2018 (SIX Month)"},
-        {id:1, name:"Diploma In Microsoft Office Course - 2013 (SIX Month)"},
+        {id:1, name:"Bachelor of Information Communication Technology (BICT)", details:"I have completed Bachelor of information  communication technology (BICT) hons. degree within 4 years. In this degree have 8 semesters. I have completed 7 academic semesters and also 1 semester with training and research project."},
+        {id:1, name:"G.C.E Advanced Level - 2017 / (index no - 7538812) ", details:"I have passed A/l examination from following technology stream. And also I have learned science for technology, engineering  technology and information & communication technology in technology stream."},
+        {id:1, name:"Diploma In English Course - 2018 (SIX Month)", details:"I have successfully completed 6 month english course. It was held by sarasavi english academy. It was held in 2018."}, 
+        {id:1, name:"Diploma In Microsoft Office Course - 2013 (SIX Month)", details:"I have successfully completed diploma in computer application professional course in lanka tec computer training institute. I was a six month diploma course. I have learned microsoft office package subjects in this diploma."},
     
       ];
       const SkillData = [
@@ -81,7 +81,7 @@ const Resume = () => {
         {id:4, img:foodball   , courceName:"FOOD BALL (sport)", courcePlace:"Sport meet"},
         {id:4, img:elle   , courceName:"ELLE (sport)", courcePlace:"Sport meet"},
         {id:4, img:clear2   , courceName:"CLEAN BOOKS", courcePlace:"B/Medawela M.V"},
-        {id:4, img:clear1   , courceName:"CLEAN BOOKS", courcePlace:"B/Medawela M.V"},
+        {id:4, img:clear1   , courceName:"CLEAN BOOKS", courcePlace:"B/Medawela M.V 1600 1130"},
       ];
 
 
@@ -91,7 +91,7 @@ const Resume = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         initialSlide: 3,
         // autoplay: true,
         // speed:3000,
@@ -173,7 +173,7 @@ const Resume = () => {
               educationDetails.map((item)=>(
                 <div key={item.id} className='education_details'>
                   <p className='degree_name'>{item.name}</p>
-                  <span className='degree_details'>I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program.</span>
+                  <span className='degree_details'>{item.details}</span>
                 </div>
               ))
              

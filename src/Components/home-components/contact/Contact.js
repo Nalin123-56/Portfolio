@@ -114,18 +114,18 @@ const linkedin = 'https://www.linkedin.com/in/nalin-priyankara-580513275/';
         <div className="c_find_container">
           <div className="c_find_icon">
           <a href={facebook} target="_blank" rel="noopener noreferrer"  className="c_fb">
-            <div >
+            <div  className="c_fb1">
                <Fb />
             </div>
             </a>
             <a href={github} target="_blank" rel="noopener noreferrer" className="c_git" >
-            <div>
-              <Git />
+            <div className="c_git1">
+              <Git/>
             </div>
             </a>
             <a href={linkedin} target="_blank" rel="noopener noreferrer" className="c_linkdin">
-             <div>
-              <LinkedIn />
+             <div className="c_linkdin1">
+              <LinkedIn/>
             </div>
             </a>
           </div>

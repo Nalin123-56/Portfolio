@@ -45,6 +45,8 @@ margin: 0 auto;
     border: none;
   }
 
+ 
+
 @media screen and (min-width: 1540px){
     .page_container ul li {
         font-size: 20px;
