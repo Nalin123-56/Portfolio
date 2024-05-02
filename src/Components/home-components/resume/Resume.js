@@ -152,7 +152,7 @@ const Resume = () => {
         ]
       };
   return (
-    <div id='resume' className='resume'>
+    <div id='resume' className='resume' >
 <hr className='resume_line'/>
          <div className='resume_topic'>
             <p className='my_journey'>MY JOURNEY IN THE ACADEMIC & PROFESSIONAL FRONT</p>

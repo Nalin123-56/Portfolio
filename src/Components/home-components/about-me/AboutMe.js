@@ -25,11 +25,7 @@ const AboutMe = () => {
         </h1>
         <h3 className="web"> <Arrow/> <Typewriter words={['Web Development...', 'App Development...', 'UI / UX Design...']} loop typeSpeed={30} delaySpeed={700} cursor={true}/></h3> 
         <p className="description">
-          Self-motivated and adaptable professional with a strong track record
-          in navigating diverse technology stacks. Thrives in problem-solving
-          and interpersonal skills, excelling under pressure. Enthusiastically
-          embraces new challenges, always seeking opportunities for learning and
-          growth.
+        Self-motivated and adaptable professional with a strong track record in navigating diverse technology stacks. Thrives in problem-solving and interpersonal skills, excelling under pressure. Enthusiastically embraces new challenges, always seeking opportunities for learning and growth.
         </p>
         <p className="find">FIND ME ON</p>
         <div className="find_container">

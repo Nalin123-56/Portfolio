@@ -16,7 +16,7 @@ const NavBar = () => {
         {id:"service", name:'Service', url:""},
         {id:"project", name:'Project', url:""},
         {id:"resume", name:'Resume', url:""},
-        {id:"experience", name:'Experience', url:""},
+        {id:"resume", name:'Experience', url:""},
         {id:"contact", name:'Contact', url:""},
     ]
   return (
