@@ -54,14 +54,14 @@ const Projects = () => {
         {id:9, project_img: facebook,projectName:"FACEBOOK WEB PAGE", githubIcon:<Git/>, description:"This is a Facebook web page, I have created for learning react components. This was created frontend by using React and CSS. And also here I have used react icons for Navigation Bar."},
     ];
     const appData = [
-        {id:1, project_img: battery ,projectName:"  BATTERY MANAGEMENT SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:2, project_img: shose,projectName:"ECOMMERCE SHOSE SALE APP", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: battery ,projectName:"  BATTERY MGT SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:2, project_img: shose,projectName:"E-COM SHOSE SALE APP", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:3, project_img: service,projectName:"CLEANING SERVICE APP", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:4, project_img: ambulance,projectName:"AMBULANCE LOCATION SYSTEM", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:4, project_img: ambulance,projectName:" LOCATION DETECT APP", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:5, project_img: plant,projectName:"IDENTIFY MEDICLE PLANTS", githubIcon:<Git/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
     ];
     const UiData = [
-        {id:1, project_img: batteryUI ,projectName:"BATTERY MANAGEMENT UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: batteryUI ,projectName:"BATTERY MGT UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:2, project_img: houseUI,projectName:"RENT OF HOUSE UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:3, project_img: fastfoodUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
         {id:4, project_img: fooddeleveryUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
@@ -70,11 +70,11 @@ const Projects = () => {
         {id:7, project_img: headphoneUI,projectName:"E-COMMERCE UI", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
     ];
     const GrapichData = [
-        {id:1, project_img: cover ,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:2, project_img: saloon,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:3, project_img: blud,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:4, project_img: tree,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:5, project_img: lap,projectName:"CRIMINAL IDENTIFICATION SYSTEM", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: cover ,projectName:"COVER PAGE DESIGN", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:2, project_img: saloon,projectName:"BEAUTY ADVERTISEMENT", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:3, project_img: blud,projectName:"BLOOD DONATION POSTER", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:4, project_img: tree,projectName:"TREE PLANTATION POSTER", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:5, project_img: lap,projectName:"LAP SALE POSTER", githubIcon:<Behance/>, description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
     ];
 
     var settings = {
@@ -145,6 +145,37 @@ const Projects = () => {
           }
         ]
       };
+
+      const portfolioLink = 'https://github.com/Nalin123-56/portfolio';
+      const headphoneLink = 'https://github.com/Nalin123-56/Ecommerce_website';
+      const freelacerLink = "";
+      const cakeorderLink = "https://github.com/Nalin123-56/restaurant_website";
+      const lmsLLink = "";
+      const scooterLink = "https://github.com/Nalin123-56/scooter_shop_website";
+      const todoLink = "https://github.com/Nalin123-56/TODO_WebApp";
+      const validateLink = "";
+      const facebookLink = "https://github.com/Nalin123-56/react_webpage";
+
+      const batteryApplink="";
+      const shoseAppLink ="";
+      const serviceAppLink ="";
+      const ambulanceAppLink ="";
+      const plantAppLink ="";
+
+      const batteryUILink ="";
+      const houseUILink ="https://www.behance.net/gallery/180016727/Estate-App-UI-Design";
+      const fastFoodUILink ="";
+      const foodDeleveryUILink ="https://www.behance.net/gallery/178983187/Food-delivery-App-UI-design";
+      const loginUILink ="https://www.behance.net/gallery/178978705/User-login-Page-UI-design";
+      const shoseUUILink ="https://www.behance.net/gallery/179055583/Shoes-salling-App-UI-design-for-Ecommerce-industry";
+      const headphoneUILink ="https://www.behance.net/gallery/178978231/Dashboard-design-in-the-Ecommerce-industry";
+      const weatherUILink = "https://www.behance.net/gallery/178984191/Weather-App-UI-design";
+
+      const coverLink ="";
+      const saloonLink ="";
+      const bludLink ="";
+      const lapLink ="";
+    
   return (
     <div id='project' className='project_container'>
          <hr className='project_line'/>
@@ -154,7 +185,7 @@ const Projects = () => {
         </div>
 
         <div className='web_project_navbar'>
-           <button className={`proj_button ${activeSection ==='web' ? 'active' : ''}`}onClick={() => handleSectionChange('web')}>Web Development</button>
+           <button className={`proj_button ${activeSection ==='web' ? 'active' : ''}`}onClick={() => handleSectionChange('web')}> Web Development</button>
            <button className={`proj_button ${activeSection === 'app' ? 'active' : ''}`} onClick={() => handleSectionChange('app')}>App development</button>
            <button className={`proj_button ${activeSection === 'ui' ? 'active' : ''}`} onClick={() => handleSectionChange('ui')}>UI / UX Design</button>
            <button className={`proj_button ${activeSection === 'graphic' ? 'active' : ''}`} onClick={() => handleSectionChange('graphic')}>Graphic Design</button>
