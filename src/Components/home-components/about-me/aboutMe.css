@@ -37,7 +37,6 @@
 .description{
     font-size: 17px;
     text-align: justify;
-    z-index: 100;
 }
 .find{
     font-size: 20px;
@@ -129,7 +128,6 @@
 .pro_img{
     width: 550px;
     height: auto;
-    z-index: 50;
 }
 
 @media screen and (min-width: 1540px) {
@@ -306,7 +304,7 @@
 
     .pro_img{
         width: 150px;
-        z-index: 10;
+      
     }
     .hi{
         font-size: 25px;

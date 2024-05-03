@@ -182,7 +182,7 @@ const Resume = () => {
 
               {activeSection === 'skill' && (
                 SkillData.map((item) => (
-                  <div className='skill_container' key={item.id}> {/* Ensure to provide a unique key */}
+                  <div className='skill_container' key={item.id}> 
                     <div className='skill_name'>{item.skillName}</div>
                     <ul className='skill'>
                       <li>{item.skill1}</li>

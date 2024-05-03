@@ -67,7 +67,7 @@ color: blueviolet;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    /* height: 380px; */
+    height: 400px;
 }
 
 .project:hover{
@@ -186,6 +186,9 @@ color: rgb(5, 0, 0);
     }
     .project_description{
         font-size: 18px;
+    }
+    .project{
+        height: 450px;
     }
     
 }

@@ -62,21 +62,21 @@ const Projects = () => {
         {id:5, project_img: plant,projectName:"IDENTIFY MEDICLE PLANTS", githubIcon:<Git/>, projectLink:"https://github.com/Nalin123-56/plant-identify-App", description:"This is a mobile application for identifying  plants, it was created by using React native expo. It is used for capturing images and identifying them. This was developed for our final-year research project." },
     ];
     const UiData = [
-        {id:1, project_img: batteryUI ,projectName:"BATTERY MGT UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/197640777/Battery-managment-System-UI", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:2, project_img: houseUI,projectName:"RENT OF HOUSE UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/180016727/Estate-App-UI-Design", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:3, project_img: fastfoodUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/197641133/Food-Delevery-App-UI",  description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:4, project_img: fooddeleveryUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178983187/Food-delivery-App-UI-design", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:5, project_img: loginUI,projectName:"LOGIN / SIGN UP UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178978705/User-login-Page-UI-design", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:6, project_img: shoseUI,projectName:"SHOSE APP UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/179055583/Shoes-salling-App-UI-design-for-Ecommerce-industry", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:7, project_img: headphoneUI,projectName:"E-COMMERCE UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178978231/Dashboard-design-in-the-Ecommerce-industry", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:7, project_img: weather,projectName:"Weather App UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178984191/Weather-App-UI-design", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: batteryUI ,projectName:"BATTERY MGT UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/197640777/Battery-managment-System-UI", description:"This is a user interface for a battery management application. It was designed using figma software. This includes five screen with pop up window and This was done for a research project." },
+        {id:2, project_img: houseUI,projectName:"RENT OF HOUSE UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/180016727/Estate-App-UI-Design", description:"This is a user interface for a rent of houses.  It was designed using figma software.  This includes three screens with login screen. Photoshop software was also used for this.  This was done for a assignment." },
+        {id:3, project_img: fastfoodUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/197641133/Food-Delevery-App-UI",  description:"This is a user interface for a food delevery.  It was designed using figma software.  This includes three screens with login screen. Photoshop software was also used for this.  This was done for a assignment." },
+        {id:4, project_img: fooddeleveryUI,projectName:"FOOD DELEVERY UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178983187/Food-delivery-App-UI-design", description:"This is a user interface for a food delevery.  It was designed using figma software.  This includes three screens with start screen. Photoshop software was also used for this.  This was done study figma." },
+        {id:5, project_img: loginUI,projectName:"LOGIN / SIGN UP UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178978705/User-login-Page-UI-design", description:"This is a user interface for a login to account.  It was designed using figma. This includes three screens (login, signup, change password).  Photoshop software was also used. This was done for study figma." },
+        {id:6, project_img: shoseUI,projectName:"SHOSE APP UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/179055583/Shoes-salling-App-UI-design-for-Ecommerce-industry", description:"This is a user interface for a shoes sale.  It was designed using figma software.  This includes three screens with start screen.  Photoshop software was also used for this.  This is to enhance my knowledge" },
+        {id:7, project_img: headphoneUI,projectName:"E-COMMERCE UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178978231/Dashboard-design-in-the-Ecommerce-industry", description:"This is a user interface for an e-commerce application.  It was designed using figma software.  Features like navigation bar, offer section are included here.  Photoshop software was also used for this." },
+        {id:7, project_img: weather,projectName:"Weather App UI", githubIcon:<Behance/>, projectLink:"https://www.behance.net/gallery/178984191/Weather-App-UI-design", description:"This is a user interface for an application to know the weather.  It was designed using figma software.  Features like rainfall, temperature are included here.  Photoshop software was also used for this." },
     ];
     const GrapichData = [
-        {id:1, project_img: cover ,projectName:"COVER PAGE DESIGN", githubIcon:<Behance/>, projectLink:"", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:2, project_img: saloon,projectName:"BEAUTY ADVERTISEMENT", githubIcon:<Behance/>, projectLink:"", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:3, project_img: blud,projectName:"BLOOD DONATION POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:4, project_img: tree,projectName:"TREE PLANTATION POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
-        {id:5, project_img: lap,projectName:"LAP SALE POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection." },
+        {id:1, project_img: cover ,projectName:"COVER PAGE DESIGN", githubIcon:<Behance/>, projectLink:"", description:"This is a cover page for a book.  Designed using Adobe Photoshop.  This was done for an assignment." },
+        {id:2, project_img: saloon,projectName:"BEAUTY ADVERTISEMENT", githubIcon:<Behance/>, projectLink:"", description:"This is a poster for a sell cosmetics.  Designed using Adobe Photoshop.  This was done for an assignment." },
+        {id:3, project_img: blud,projectName:"BLOOD DONATION POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a poster for a blood Donation Campaign.  Designed using Photoshop. this was done for an assignment." },
+        {id:4, project_img: tree,projectName:"TREE PLANTATION POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a poster for a Tree Plantation Programme.  Designed using Photoshop.  This was done for an assignment." },
+        {id:5, project_img: lap,projectName:"LAP SALE POSTER", githubIcon:<Behance/>, projectLink:"", description:"This is a poster for a laptop sale.  Designed using Adobe Photoshop.  This was done for an assignment." },
     ];
 
     var settings = {
@@ -84,7 +84,7 @@ const Projects = () => {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 3.5,
+        slidesToShow: 4,
         slidesToScroll: 3,
         initialSlide: 0,
         // autoplay: true,
@@ -97,7 +97,16 @@ const Projects = () => {
 
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1540,
+            settings: {
+              slidesToShow: 3.5,
+              slidesToScroll: 3,
+              infinite: false,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 1200,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -117,7 +126,7 @@ const Projects = () => {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 1.7,
+              slidesToShow: 1.8,
               slidesToScroll: 2,
               infinite: false,
               dots: true
