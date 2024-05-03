@@ -82,17 +82,17 @@ const Projects = () => {
     var settings = {
         className: "center",
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 3,
         initialSlide: 0,
-        // autoplay: true,
-        // speed:3000,
-        // autoplaySpeed: 3000,
-        // cssEase: "linear",
-        // centerMode: true,
-        // centerPadding: "60px",
+        autoplay: true,
+        speed:3000,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        centerMode: false,
+        centerPadding: "1px",
 
 
         responsive: [
@@ -101,8 +101,9 @@ const Projects = () => {
             settings: {
               slidesToShow: 3.5,
               slidesToScroll: 3,
-              infinite: false,
-              dots: true
+              infinite: true,
+              dots: true,
+              initialSlide: 0,
             }
           },
           {
@@ -110,7 +111,7 @@ const Projects = () => {
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
-              infinite: false,
+              infinite: true,
               dots: true
             }
           },
@@ -119,7 +120,7 @@ const Projects = () => {
             settings: {
               slidesToShow: 2.5,
               slidesToScroll: 2,
-              infinite: false,
+              infinite: true,
               dots: true
             }
           },
@@ -128,7 +129,7 @@ const Projects = () => {
             settings: {
               slidesToShow: 1.8,
               slidesToScroll: 2,
-              infinite: false,
+              infinite: true,
               dots: true
             }
           },
@@ -138,20 +139,26 @@ const Projects = () => {
               slidesToShow: 1.5,
               slidesToScroll: 2,
               initialSlide: 1,
+              infinite: true,
+              dots: true
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1.1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
           },
           {
             breakpoint: 380,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
           }
         ]

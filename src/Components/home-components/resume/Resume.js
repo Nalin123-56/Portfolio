@@ -117,6 +117,8 @@ const Resume = () => {
               slidesToShow: 2.1,
               slidesToScroll: 2,
               initialSlide: 1,
+              infinite: true,
+              dots: true
             }
           },
           {
@@ -125,6 +127,8 @@ const Resume = () => {
               slidesToShow: 2,
               slidesToScroll: 2,
               initialSlide: 1,
+              infinite: true,
+              dots: true
             }
           },
           {
@@ -132,21 +136,27 @@ const Resume = () => {
             settings: {
               slidesToShow: 1.6,
               slidesToScroll: 2,
-              initialSlide: 2
+              initialSlide: 2,
+              infinite: true,
+              dots: true
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1.2,
-              slidesToScroll: 1
+              slidesToShow: 1.1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
           },
           {
             breakpoint: 380,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
           }
         ]
