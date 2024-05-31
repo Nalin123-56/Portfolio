@@ -105,7 +105,7 @@ const linkedin = 'https://www.linkedin.com/in/nalin-priyankara-580513275/';
        <div className='left_contact'>
          <img className='contact_img' src={profile} alt=''/>
          <h5 className='contact_name'>Nalin Priyankara</h5>
-         <p className='contact_possition'>Softwere Developer</p>
+         <p className='contact_possition'>Software Developer</p>
          <p className='contact_details'>I'm all ears for your feedback, and if my skills align with your needs, feel free to get in touch. Let's make things happen!</p>
          <p className='contact_number'><span className='phone'>Phone : </span>+94717049257</p>
          <div className='contact_email'><span className='email'>Email :</span> udayanalinpriyankara@gmail.com</div>
